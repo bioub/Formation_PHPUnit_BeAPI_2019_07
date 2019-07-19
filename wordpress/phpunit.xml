@@ -1,0 +1,17 @@
+<phpunit
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="https://schema.phpunit.de/8.2/phpunit.xsd" colors="true">
+
+    <testsuites>
+        <testsuite name="General">
+            <directory>tests</directory>
+        </testsuite>
+        <testsuite name="BEAPI Frontend Framework Theme">
+            <directory>wp-content/themes/beapi-frontent-framework/tests</directory>
+        </testsuite>
+        <testsuite name="All Themes">
+            <directory>wp-content/themes/**/tests</directory>
+        </testsuite>
+    </testsuites>
+
+</phpunit>

@@ -1,0 +1,1 @@
+C:37:"PHPUnit\Runner\DefaultTestResultCache":223:{a:2:{s:7:"defects";a:1:{s:45:"BEAPITest\FunctionnalPostsTest::testLoginPage";i:3;}s:5:"times";a:2:{s:45:"BEAPITest\FunctionnalPostsTest::testIndexPage";d:1.196;s:45:"BEAPITest\FunctionnalPostsTest::testLoginPage";d:0.695;}}}

@@ -10,6 +10,9 @@ use PHPUnit\Framework\TestCase;
 
 class StarWarsServiceTest extends TestCase
 {
+    /**
+     * @group withAPI
+     */
     public function testGetPeopleById()
     {
         $client = new Client();
